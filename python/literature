@@ -1,0 +1,5 @@
+the summary of what i learned in addition to honning some python skills (not mentioned)
+
+Usually, when we use the normal request, each subsequent request will be treated as if it was sent by a different client. To solve this, we use sessions so that the server recognizes that it is us (the same user sending a request). How it works: when you use a session and initiate a request, the server creates a unique session ID which is then sent to the client within a cookie. This cookie is contained within the 'head', an HTML tag that stores metadata. Each time a subsequent request is made, the cookie gets sent back and the server "knows" that it is the same user.
+
+key words: Cookies - A mechanism that stores metadata such as a session ID, expiration data, etc. Metadata - Data about data that is contained in the 'head' of HTML as a convention. Please confirm if what I wrote is accurate.
